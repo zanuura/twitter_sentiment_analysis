@@ -1,0 +1,21 @@
+bearer tokrn 
+AAAAAAAAAAAAAAAAAAAAAPe7qQEAAAAAOR7fmIiXPNfw4ruVLAXuNwSSMHE%3DB6r7R7L3euUfscObxfUeCqBl2DL4BC5ca78dqcWWynP7r9NStY
+
+acces token 
+1454565977434181634-5B1OYUEIhqAY2mruqdHl7cx6PrzFPi
+
+acces token secret
+b0xiddaoplmcmHtVIOHCCYd7ynLcg1gkmFt4DSXo5UT50
+
+api key
+ar6gngNwPA9TRzEJM7QUpavrA
+
+api key secret
+pPcQeO2tYbTZwuOo5pnZYHFSTKvA4wAkhfCDqZuzvif1Fg9lKf
+
+client id
+bVhwOUVXYlMtTkRKZkhGbE5ZTDE6MTpjaQ
+
+cliens id secret
+BzuWrMjj0DTVfIfxrUhUUMe7x1Dg2k6zIztg9GTphDReLfInQI
+BzuWrMjj0DTVfIfxrUhUUMe7x1Dg2k6zIztg9GTphDReLfInQI
