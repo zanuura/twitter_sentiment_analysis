@@ -80,7 +80,9 @@ StemmerFactory
 <div align="center" margin=auto>
 <a href="https://www.python.org/"><img alt="Static Badge" src="https://img.shields.io/badge/-Python-green?style=flat&logo=python">
 </a>
-<a href="https://www.python.org/"><img alt="Static Badge" src="https://img.shields.io/badge/-Flask-grey?style=flat&logo=flask&logoColor=black">
+<a href="https://www.python.org/"><img alt="Static Badge" src="https://img.shields.io/badge/-Jupyter-green?style=flat&logo=jupyter">
+</a>
+<a href="https://www.python.org/"><img alt="Static Badge" src="https://img.shields.io/badge/-Colab-green?style=flat&logo=colab">
 </a>
   <br>
   <a href="https://github.com/zanuura"><img alt="Static Badge" src="https://img.shields.io/badge/-Github-white?style=flat&logo=github&logoColor=black">
