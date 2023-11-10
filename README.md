@@ -1,8 +1,13 @@
 # Twitter Sentiment Analys
 This is Twitter Sentiment Analys for Pilpres 2019 in Indonesia.
+**Background**:
+Along with the increasing openness of information and freedom of opinion on social media, and
+With the increase in political campaign activity on Twitter social media, the General Election Commission (KPU) feels it is necessary to monitor and evaluate campaign activities, especially regarding the sentiments of Twitter users regarding the 2019 election.
+**Objective**:
+The model aims to classify positive, neutral and negative sentiment in tweets.
 
 ## Datasets
-*Datset Info*
+**Datset Info**
 - Row : 1815
 - Column : 2 [”Sentimen”, “Tweet”]
 - label : Negatif, Netral. Positif
@@ -13,7 +18,7 @@ This is Twitter Sentiment Analys for Pilpres 2019 in Indonesia.
 - Positif: 612
 
 ## Text Preprocessing
-*Text Cleaning*
+**Text Cleaning**
 - remove url http, .com .id dll
 - remove hashtag #, @
 - remove angka
@@ -22,7 +27,7 @@ This is Twitter Sentiment Analys for Pilpres 2019 in Indonesia.
 - case folding lower
 
 ## Spell Correcting
-*Example* :
+**Example** :
 - bgt = banget
 - aq = aku
 - dmn = dimana
@@ -30,26 +35,26 @@ This is Twitter Sentiment Analys for Pilpres 2019 in Indonesia.
 - etc
 
 ## StopWord Removal
-*Tools* NLTK word_tokenize.
+**Tools** NLTK word_tokenize.
 'yang', 'untuk', 'pada', 'ke', 'para', 'namun', 'menurut', 'antara', 'dia', 'dua', 'ia', 'seperti', 'jika', 'jika', 'sehingga', 'kembali', 'dan', 'ini', 'karena', 'kepada', 'oleh', 'saat', 'harus', 'sementara', 'setelah', 'kami', 'sekitar', 'bagi', 'serta', 'di', 'dari', 'telah', 'sebagai', 'masih', 'hal', 'ketika', 'adalah', 'itu', 'dalam', 'bisa', 'bahwa', 'atau', 'hanya', 'kita', 'dengan', 'akan', 'juga', 'ada', 'mereka', 'sudah', 'saya', 'terhadap', 'secara', 'agar', 'lain', 'anda', 'begitu', 'mengapa', 'kenapa', 'yaitu', 'yakni', 'daripada', 'itulah', 'lagi', 'maka', 'tentang', 'demi', 'dimana', 'kemana', 'pula', 'sambil', 'sebelum', 'sesudah', 'supaya', 'guna', 'kah', 'pun', 'sampai', 'sedangkan', 'selagi', 'sementara', 'tetapi', 'apakah', 'kecuali', 'sebab', 'selain', 'seolah', 'seraya', 'seterusnya', 'tanpa', 'agak', 'boleh', 'dapat', 'dsb', 'dst', 'dll', 'dahulu', 'dulunya', 'anu', 'demikian', 'tapi', 'ingin', 'juga', 'nggak', 'mari', 'nanti', 'melainkan', 'oh', 'ok', 'seharusnya', 'sebetulnya', 'setiap', 'setidaknya', 'sesuatu', 'pasti', 'saja', 'toh', 'walau', 'tolong', 'tentu', 'amat', 'apalagi', 'bagaimanapun' .
 
 ## Stemming
-*Tools* Sastrawi 
+**Tools** Sastrawi 
 StemmerFactory
 
 ## Texts Augmentation
-*Tools* NLTK, wordnet, random,
+**Tools** NLTK, wordnet, random,
 - Synonim Replacement
 - Sentence Shuffling
 - Word Insertion
 
 ### Datasets Real + Augmented
-*Datset Info*
+**Datset Info**
 - Row : 3630
 - Column : 2 [”Sentimen”, “Tweet”]
 - label : Negatif, Netral. Positif
 
-*Sentimen Count Values*
+**Sentimen Count Values**
 - Negatif : 1192
 - Netral : 1214
 - Positif: 1224
