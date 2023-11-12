@@ -58,7 +58,7 @@ _Sentimen Count Values_
 - drpd = daripada
 - etc
 
-```ruby
+```python
 # Before
 aku memang setuju macro ekonominya jokowi jago bgt meski mungkin itu memang rancangan yg sudah ditulis sm ahli yg merancang pembangunan indonesia ya tapi jokowi memang memahami dg baik
 
@@ -71,7 +71,7 @@ aku memang setuju macro ekonominya jokowi jago banget meski mungkin itu memang r
 <!-- **Tools** NLTK word_tokenize.
 'yang', 'untuk', 'pada', 'ke', 'para', 'namun', 'menurut', 'antara', 'dia', 'dua', 'ia', 'seperti', 'jika', 'jika', 'sehingga', 'kembali', 'dan', 'ini', 'karena', 'kepada', 'oleh', 'saat', 'harus', 'sementara', 'setelah', 'kami', 'sekitar', 'bagi', 'serta', 'di', 'dari', 'telah', 'sebagai', 'masih', 'hal', 'ketika', 'adalah', 'itu', 'dalam', 'bisa', 'bahwa', 'atau', 'hanya', 'kita', 'dengan', 'akan', 'juga', 'ada', 'mereka', 'sudah', 'saya', 'terhadap', 'secara', 'agar', 'lain', 'anda', 'begitu', 'mengapa', 'kenapa', 'yaitu', 'yakni', 'daripada', 'itulah', 'lagi', 'maka', 'tentang', 'demi', 'dimana', 'kemana', 'pula', 'sambil', 'sebelum', 'sesudah', 'supaya', 'guna', 'kah', 'pun', 'sampai', 'sedangkan', 'selagi', 'sementara', 'tetapi', 'apakah', 'kecuali', 'sebab', 'selain', 'seolah', 'seraya', 'seterusnya', 'tanpa', 'agak', 'boleh', 'dapat', 'dsb', 'dst', 'dll', 'dahulu', 'dulunya', 'anu', 'demikian', 'tapi', 'ingin', 'juga', 'nggak', 'mari', 'nanti', 'melainkan', 'oh', 'ok', 'seharusnya', 'sebetulnya', 'setiap', 'setidaknya', 'sesuatu', 'pasti', 'saja', 'toh', 'walau', 'tolong', 'tentu', 'amat', 'apalagi', 'bagaimanapun' . -->
 
-```ruby
+```python
 custom_stopwords = ['yah', 'ah', 'yang', 'ke', 'dan']
 
 # Before
@@ -94,7 +94,7 @@ StemmerFactory -->
 - Word Insertion
 - Style Transfer
 
-```ruby
+```python
 # Before
 kata prabowo indonesia tidak dihargai bangsa asing berita ini pasti palsu buatan penguasa ya kan rockygerung
 
@@ -118,7 +118,7 @@ bercakap prabowo Indonesia tidak dihargai bangsa asing berita ini jelas imitatif
 
 ## Vectorization
 
-```ruby
+```python
 max_vocab_length = 10000
 max_length = 24
 
@@ -154,7 +154,7 @@ Bottom 5 least common words: ['agamakristen', 'agamais', 'aduhhhh', 'adikuasa', 
 
 ## Embedding
 
-```ruby
+```python
 tf.random.set_seed(42)
 
 embedding = layers.Embedding(
@@ -187,9 +187,10 @@ array([[[-0.04715041, -0.04502885,  0.0269253 , ..., -0.04094044,
 ```
 
 ## Modelling
+
 ![image](https://github.com/zanuura/twitter_sentiment_analys_training/assets/73764446/b1a46594-2ae2-4b42-865a-46a8e03bd324)
 
-```ruby
+```python
 def model4():
 
   inputs = layers.Input(shape=(1,), dtype="string")
@@ -223,6 +224,7 @@ lstm4_history = lstm4.fit(X_train, np.float32(Y_train),
  'recall': 0.8842975206611571,
  'f1': 0.8842998589587284}
 ```
+
 ![image](https://github.com/zanuura/twitter_sentiment_analys_training/assets/73764446/77e1ba95-33a4-42a8-88a0-95b52eb1f05b)
 
 ![image](https://github.com/zanuura/twitter_sentiment_analys_training/assets/73764446/ca8bf6db-21c2-47cf-9aa3-e72942bf5404)
@@ -248,7 +250,7 @@ weighted avg       0.86      0.86      0.86       726
 
 ## Model Evaluation
 
-```ruby
+```python
 #1
 - accuracy: 86.50137741046832,
 - precision: 0.866572171963956,
