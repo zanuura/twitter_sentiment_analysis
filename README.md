@@ -227,6 +227,24 @@ lstm4_history = lstm4.fit(X_train, np.float32(Y_train),
 
 ![image](https://github.com/zanuura/twitter_sentiment_analys_training/assets/73764446/ca8bf6db-21c2-47cf-9aa3-e72942bf5404)
 
+```
+XT_vect = text_vectorizer(X_test)
+rfc_score = rfc.score(XT_vect, np.float32(Y_test))
+print(rfc_score)
+
+y_pred = rfc.predict(XT_vect)
+print(classification_report(Y_test, y_pred))
+
+              precision    recall  f1-score   support
+
+           0       0.88      0.87      0.87       242
+           1       0.87      0.87      0.87       256
+           2       0.84      0.85      0.84       228
+
+    accuracy                           0.86       726
+   macro avg       0.86      0.86      0.86       726
+weighted avg       0.86      0.86      0.86       726
+```
 
 ## Model Evaluation
 
