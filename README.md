@@ -262,6 +262,8 @@ weighted avg       0.86      0.86      0.86       726
  'recall': 0.8842975206611571,
  'f1': 0.8842998589587284}
 ```
+![image](https://github.com/zanuura/twitter_sentiment_analysis/assets/73764446/c833406f-53e4-42dd-b8da-116bab163c4d)
+
 
 ## Prediction
 
