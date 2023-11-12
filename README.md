@@ -4,9 +4,11 @@
 
 This is Twitter Sentiment Analys for Pilpres 2019 in Indonesia.
 <br>
+<br>
 **Background**:
 Along with the increasing openness of information and freedom of opinion on social media, and
 With the increase in political campaign activity on Twitter social media, the General Election Commission (KPU) feels it is necessary to monitor and evaluate campaign activities, especially regarding the sentiments of Twitter users regarding the 2019 election.
+<br>
 <br>
 **Objective**:
 The model aims to classify positive, neutral and negative sentiment in tweets.
