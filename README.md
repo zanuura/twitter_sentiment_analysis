@@ -1,9 +1,13 @@
+![NLP-A Geffry Hinton](https://github.com/zanuura/twitter_sentiment_analys_training/assets/73764446/13bfb94c-a5bb-4bd5-b608-b92e47bcf76d)
+
 # Twitter Sentiment Analys
 
 This is Twitter Sentiment Analys for Pilpres 2019 in Indonesia.
+<br>
 **Background**:
 Along with the increasing openness of information and freedom of opinion on social media, and
 With the increase in political campaign activity on Twitter social media, the General Election Commission (KPU) feels it is necessary to monitor and evaluate campaign activities, especially regarding the sentiments of Twitter users regarding the 2019 election.
+<br>
 **Objective**:
 The model aims to classify positive, neutral and negative sentiment in tweets.
 
@@ -181,6 +185,7 @@ array([[[-0.04715041, -0.04502885,  0.0269253 , ..., -0.04094044,
 ```
 
 ## Modelling
+![image](https://github.com/zanuura/twitter_sentiment_analys_training/assets/73764446/b1a46594-2ae2-4b42-865a-46a8e03bd324)
 
 ```dracula
 def model4():
@@ -216,6 +221,10 @@ lstm4_history = lstm4.fit(X_train, np.float32(Y_train),
  'recall': 0.8842975206611571,
  'f1': 0.8842998589587284}
 ```
+![image](https://github.com/zanuura/twitter_sentiment_analys_training/assets/73764446/77e1ba95-33a4-42a8-88a0-95b52eb1f05b)
+
+![image](https://github.com/zanuura/twitter_sentiment_analys_training/assets/73764446/ca8bf6db-21c2-47cf-9aa3-e72942bf5404)
+
 
 ## Model Evaluation
 
