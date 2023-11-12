@@ -23,15 +23,15 @@ _Sentimen Count Values_
 
 ## What i do
 
-- [Texts Cleaning](#-texts-cleaning)
-- [Spell Correcting](#-spell-correcting)
-- [Stopword Removal](#-stopword-removal)
-- [Texts Augmentation](#-texts-augmentation)
-- [Vectorization](#-vectorization)
-- [Embedding](#-embedding)
-- [Modelling](#-modelling)
-- [Evaluation](#-evaluation)
-- [Predicting](#-prediction)
+- [Texts Cleaning](#texts-cleaning)
+- [Spell Correcting](#spell-correcting)
+- [Stopword Removal](#stopword-removal)
+- [Texts Augmentation](#texts-augmentation)
+- [Vectorization](#vectorization)
+- [Embedding](#embedding)
+- [Modelling](#modelling)
+- [Evaluation](#evaluation)
+- [Predicting](#prediction)
 
 ## Texts Cleaning
 
